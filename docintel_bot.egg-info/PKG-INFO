@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: docintel_bot
+Version: 0.1.0
+Summary: DocIntel Bot - A local document intelligence and QA system using FAISS and local LLMs
+Author-email: Thangarasu <thangamani1128@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2>=3.0
+Requires-Dist: sentence-transformers>=2.2.2
+Requires-Dist: faiss-cpu>=1.7.3
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: streamlit

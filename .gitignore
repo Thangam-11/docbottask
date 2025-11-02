@@ -1,8 +1,21 @@
-docvenv\
-data\
-__pycache__\
+# Virtual environment
+botdocvenv/
+venv/
+__pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.log   
+
+# Data & Models
+data/
+models/
+
+# Environment files
+.env
+.env.local
+.env/
+# Streamlit & Cache
+.streamlit/
+logs/
+
+# Temporary files
+*.log
+.DS_Store

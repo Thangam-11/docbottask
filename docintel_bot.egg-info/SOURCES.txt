@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+docintel_bot.egg-info/PKG-INFO
+docintel_bot.egg-info/SOURCES.txt
+docintel_bot.egg-info/dependency_links.txt
+docintel_bot.egg-info/requires.txt
+docintel_bot.egg-info/top_level.txt
+logger/__init__.py
+logger/config_manager.py
+logger/logger_system.py
+src/__init__.py

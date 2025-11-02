@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docintel_bot"
+version = "0.1.0"
+description = "DocIntel Bot - A local document intelligence and QA system using FAISS and local LLMs"
+authors = [
+    { name = "Thangarasu", email = "thangamani1128@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+
+dependencies = [
+    "PyPDF2>=3.0",
+    "sentence-transformers>=2.2.2",
+    "faiss-cpu>=1.7.3",
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "numpy",
+    "pyyaml",
+    "requests",
+    "python-dotenv",
+    "streamlit"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "logger*", "models*", "data*"]

@@ -1,0 +1,26 @@
+
+# Configuration file for DocIntel Bot Copy this content to: configure/config.yaml
+
+# Model Configuration
+models:
+  embedding: "C:/Users/thang/Desktop/docbotapp/models/embedding_model"
+  llm: "C:/Users/thang/Desktop/docbotapp/models/tinyllama"
+
+paths:
+  database: "data/docintel.db"
+  documents: "data/documents"
+  faiss_index: "data/faiss_index.bin"
+  metadata: "data/chunks_metadata.pkl"
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 50
+
+retrieval:
+  top_k: 3
+  max_context_length: 2000
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/docintel.log"
